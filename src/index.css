@@ -13,5 +13,6 @@
     --bg-primary: #dcecf0;
     --bg-hover: #c6e9f0;
     --max-width: 1140px;
+    -o-animation-delay: 1s;
   }
 }
