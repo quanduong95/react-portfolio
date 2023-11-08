@@ -23,10 +23,11 @@ In this portfolio, you will find:
 
 ## Technologies
 This project was created with:
-- React.js (version: your_version)
-- HTML5
-- CSS3 (SASS/SCSS)
-- JavaScript (ES6+)
+- **React.js** (version: your_version)
+- **HTML5**
+- **CSS3** (SASS/SCSS)
+- **JavaScript** (ES6+)
+- **Tailwind**
 
 ## Setup
 To run this project, install it locally using npm:
