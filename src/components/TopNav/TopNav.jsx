@@ -16,7 +16,7 @@ export const TopNav = () => {
             return (
               <li
                 key={index}
-                className='mx-2 lg:mx-0 p-2  text-[var(--text-secondary)]  text-center cursor-pointer hover:bg-[var(--bg-hover)] '
+                className='mx-2 lg:mx-0 p-2  text-[var(--text-banner)]  text-center cursor-pointer hover:text-white/50 '
               >
                 {item}
               </li>
@@ -26,7 +26,7 @@ export const TopNav = () => {
         <div className={nav ? 'hidden' : 'my-1  z-10'}>
           <FaBars
             size={30}
-            className='sm:hidden mx-4 cursor-pointer z-10'
+            className='sm:hidden mx-4 cursor-pointer z-10 text-white'
             onClick={() => handleNav()}
           />
         </div>
@@ -42,7 +42,7 @@ export const TopNav = () => {
               return (
                 <li
                   key={index}
-                  className='py-8 text-xl text-white tracking-widest '
+                  className='py-8 text-xl text-white tracking-widest hover:text-white/50  '
                 >
                   <a
                     href='#contact'

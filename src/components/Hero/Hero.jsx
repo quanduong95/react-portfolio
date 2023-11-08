@@ -1,20 +1,21 @@
 import { TfiLinkedin, TfiFacebook } from 'react-icons/tfi';
 import { BsGithub, BsInstagram } from 'react-icons/bs';
-import { AiOutlineArrowDown } from 'react-icons/ai';
 export const Hero = () => {
   return (
     <main className='max-w-[var(--max-width)] mx-auto my-8  md:h-[80vh] '>
-      <section className='w-[80%] m-auto '>
-        <h1 className='text-8xl font-bold my-4 md:my-8'>Peter Duong</h1>
-        <h2 className='text-xl text-[var(--text-bold)] font-bold my-4 md:my-8'>
+      <section className=' w-[90%] sm:w-[50%]  m-auto lg:m-0  h-auto p-2 '>
+        <h1 className='text-6xl sm:text-7xl text-white font-bold my-4 md:my-8 '>
+          Peter Duong
+        </h1>
+        <h2 className='text-xl text-white font-bold my-4 md:my-8'>
           Full Stack Web Developer
         </h2>
-        <p className='my-4 md:my-8 text-[var(--text-secondary)]'>
+        <p className='my-4 md:my-8 text-[var(--text-banner)] '>
           As a Full Stack Developer, I specialize in creating seamless and
           robust web applications by integrating both frontend and backend
           technologies.
         </p>
-        <ul className='flex my-6 gap-6  '>
+        <ul className='flex my-12 gap-6 text-white '>
           <li className='cursor-pointer'>
             <a
               href='https://www.linkedin.com/in/quan-duong-ca/'
@@ -52,12 +53,6 @@ export const Hero = () => {
             </a>
           </li>
         </ul>
-        <div className='w-full grid place-items-center my-16'>
-          <AiOutlineArrowDown
-            className='my-20 bounce'
-            size={100}
-          />
-        </div>
       </section>
     </main>
   );

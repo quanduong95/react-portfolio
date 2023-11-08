@@ -2,28 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-80px);
-  }
-}
-
-.bounce {
-  animation: bounce 3s infinite;
-}
-
 @layer base {
   :root {
     --text-primary: #000000;
     --text-secondary: #565656;
     --text-highlight: #0096c7;
+    --text-banner: #fffff0;
     --text-bold: #03045e;
     --bg-button: #90e0ef;
-    --bg-primary: #d4ebf1;
+    --bg-primary: #dcecf0;
     --bg-hover: #c6e9f0;
     --max-width: 1140px;
   }
