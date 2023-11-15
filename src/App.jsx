@@ -2,6 +2,8 @@ import { TopNav } from './components/TopNav/TopNav';
 import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
 import { Skills } from './components/Skills/Skills';
+import { Projects } from './components/Projects/Projects';
+import { Experience } from './components/Experience/Experience';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       </div>
       <About />
       <Skills />
+      <Projects />
+      <Experience />
     </main>
   );
 }
